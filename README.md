@@ -4,9 +4,7 @@ TaskFlow is a high-performance, aesthetically pleasing task management applicati
 
 ## 📺 Project Demo
 
-https://github.com/user-attachments/assets/Demo.mp4 (Lưu ý: Bạn hãy thay đường link này bằng link thật sau khi upload lên GitHub)
-
-> **Hướng dẫn:** Để xem video này ngay trong README trên GitHub, bạn có thể kéo thả trực tiếp file `Demo.mp4` vào phần chỉnh sửa của GitHub.
+![TaskFlow Demo](Demo.mp4)
 
 ---
 
