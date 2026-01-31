@@ -29,7 +29,7 @@ TaskFlow is a high-performance, aesthetically pleasing task management applicati
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/taskflow.git
+git clone https://github.com/DYBInh2k5/TaskFlow.git
 cd taskflow
 ```
 
