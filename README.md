@@ -4,7 +4,7 @@ TaskFlow is a high-performance, aesthetically pleasing task management applicati
 
 ## 📺 Project Demo
 
-<video src="Demo.mp4" width="100%" controls></video>
+https://github.com/DYBInh2k5/TaskFlow/raw/main/Demo.mp4
 
 ---
 
