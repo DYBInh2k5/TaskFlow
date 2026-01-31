@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 TaskFlow - Premium Task Management App
 
-## Getting Started
+TaskFlow is a high-performance, aesthetically pleasing task management application built with Next.js and Supabase. It features an iOS-inspired design with real-time sync, dark mode support, and productivity insights.
 
-First, run the development server:
+## 📺 Project Demo
 
+https://github.com/user-attachments/assets/Demo.mp4 (Lưu ý: Bạn hãy thay đường link này bằng link thật sau khi upload lên GitHub)
+
+> **Hướng dẫn:** Để xem video này ngay trong README trên GitHub, bạn có thể kéo thả trực tiếp file `Demo.mp4` vào phần chỉnh sửa của GitHub.
+
+---
+
+## ✨ Features
+
+- **iOS-Inspired UI:** Premium glassmorphism and smooth animations.
+- **Real-time Sync:** Powered by Supabase for instant updates across devices.
+- **Dynamic Dashboard:** Track your daily progress and completion streaks.
+- **Smart Insights:** Professional charts and category breakdowns of your productivity.
+- **Task Calendar:** Plan your week with an interactive timeline.
+- **Auth Ready:** Secure login and registration with Supabase Auth.
+- **Dark Mode:** Seamless switching between light and dark themes.
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 15+](https://nextjs.org/)
+- **Database & Auth:** [Supabase](https://supabase.com/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Google Material Symbols](https://fonts.google.com/icons)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/taskflow.git
+cd taskflow
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Setup Environment Variables
+Create a `.env.local` file in the root directory and add your Supabase credentials:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Database Setup
+Run the SQL commands found in `schema.sql` within your Supabase SQL Editor to set up the necessary tables and RLS policies.
 
-## Learn More
+### 5. Run the dev server
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Deploying as a Mobile App
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is prepared for [Capacitor](https://capacitorjs.com/) integration. To build for Android:
+1. `npm run build`
+2. `npx cap sync`
+3. Open the `android` folder in Android Studio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Built with ❤️ by TaskFlow Team.
